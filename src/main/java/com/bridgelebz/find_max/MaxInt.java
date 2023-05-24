@@ -11,7 +11,7 @@ public class MaxInt {
         this.input3 = input3;
     }
 
-    public Integer findMax(Integer input1, Integer input2, Integer input3) {
+    public Integer findMax() {
         Integer maxValue = input1;
         if (input2.compareTo(maxValue) > 0) {
             maxValue = input2;
