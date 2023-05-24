@@ -5,7 +5,7 @@ public class MaxInt {
     Integer input2;
     Integer input3;
 
-    MaxInt(Integer input1, Integer input2, Integer input3) {
+    MaxInt() {
         this.input1 = input1;
         this.input2 = input2;
         this.input3 = input3;
