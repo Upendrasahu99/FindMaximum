@@ -1,9 +1,9 @@
 package com.bridgelebz.find_max;
 
 public class MaxInt {
-    Integer input1;
-    Integer input2;
-    Integer input3;
+    private Integer input1;
+    private Integer input2;
+    private Integer input3;
 
     MaxInt(Integer input1, Integer input2, Integer input3) {
         this.input1 = input1;
@@ -11,7 +11,7 @@ public class MaxInt {
         this.input3 = input3;
     }
 
-    public Integer findMax() {
+     Integer findMaxInt() {
         Integer maxValue = input1;
         if (input2.compareTo(maxValue) > 0) {
             maxValue = input2;
