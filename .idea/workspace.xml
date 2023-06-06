@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c5fde8cb-6173-4084-8f87-f4b0fac7678c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bridgelebz/find_max/MaxIntTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridgelebz/find_max/MaxIntTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bridgelebz/find_max/MaxValueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridgelebz/find_max/MaxValueTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,75 +57,19 @@
       <recent name="com.bridgelebz.find_max" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MaxStringTest">
-    <configuration name="MaxFloatTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.bridgelebz.find_max.MaxFloatTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="MaxFloatTest.testFindMax_ThirdMax" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.bridgelebz.find_max.MaxFloatTest.testFindMax_ThirdMax&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="MaxIntTest.testFindMax_SecondMax" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.bridgelebz.find_max.MaxIntTest.testFindMax_SecondMax&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
+  <component name="RunManager" selected="Gradle.MaxValueTest">
+    <configuration name="TestRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bridgelebz.find_max.TestRunner" />
+      <module name="FindMaximum.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelebz.find_max.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="MaxStringTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -149,7 +94,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MaxStringTest.testFindMax_ThirdMax" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MaxValueTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -162,7 +107,53 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.bridgelebz.find_max.MaxStringTest.testFindMax_ThirdMax&quot;" />
+            <option value="&quot;com.bridgelebz.find_max.MaxValueTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MaxValueTest.testMax_Int" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.bridgelebz.find_max.MaxValueTest.testMax_Int&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.bridgelebz.find_max.TestSuite&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -174,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MaxValueTest" />
+        <item itemvalue="Gradle.MaxValueTest.testMax_Int" />
+        <item itemvalue="Gradle.TestSuite" />
+        <item itemvalue="Application.TestRunner" />
         <item itemvalue="Gradle.MaxStringTest" />
-        <item itemvalue="Gradle.MaxStringTest.testFindMax_ThirdMax" />
-        <item itemvalue="Gradle.MaxIntTest.testFindMax_SecondMax" />
-        <item itemvalue="Gradle.MaxFloatTest" />
-        <item itemvalue="Gradle.MaxFloatTest.testFindMax_ThirdMax" />
       </list>
     </recent_temporary>
   </component>

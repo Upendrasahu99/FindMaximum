@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 class MaxIntTest {
     @Test
     public  void testFindMax_FirstMax(){
-        MaxInt maxInt = new MaxInt(7,4,5);
+        MaxInt maxInt = new MaxInt(7,4,5);//For initializing all three input value
         Integer expectedMaxValue = 7;
         Integer actualMaxValue = maxInt.findMaxInt();
         Assert.assertEquals(expectedMaxValue,actualMaxValue);
